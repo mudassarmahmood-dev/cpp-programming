@@ -11,5 +11,5 @@ int main()
         }
         cout<<endl;
     }
-    cout<<"The minimum number in the 2D array is: "<<mn<<endl;
+    cout<<"The min number in the 2D array is: "<<mn<<endl;
 }
