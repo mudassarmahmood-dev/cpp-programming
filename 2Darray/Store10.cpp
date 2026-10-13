@@ -2,9 +2,14 @@
 using namespace std;
 int main()
 {
-    int arr [4][2]={{21,33},{45,55},{67,77},{89,99}};
-    for(int i=0; i<4; i++){
-        for(int j=0; j<2; j++){
+    int arr [5][5];
+    for (int i=0; i<5; i++){
+        for(int j=0; j<5; j++){
+            arr[i][j]=10;
+        }
+    }
+    for (int i=0; i<5; i++){
+        for(int j=0; j<5; j++){
             cout<< arr[i][j]<<" ";
         }
         cout<<endl;
