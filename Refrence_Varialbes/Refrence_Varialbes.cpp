@@ -2,7 +2,7 @@
 #include <conio.h>
 using namespace std;
 void min(int *b){
-    cout<< "Address of b: " << *b << endl;
+    cout<< "Address of b: " << --b << endl;
 }
 int main()
 {
